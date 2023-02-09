@@ -15,9 +15,9 @@ __email__ = "wilmararcilac@gmail.com"
 __status__ = "Prototipo"
 __date__ = "30/05/2022"
 
-# from ../../../IoT/iot_python_modules/cores_temp import read_temp,locate_sensors
+# from ~/IoT/iot_python/cores_temp import read_temp,locate_sensors
 import sys
-sys.path.insert(1, '/home/wilmar/IoT/iot_python')
+sys.path.insert(1, '~/IoT/iot_python')
 
 import argparse
 import mqtt_client
