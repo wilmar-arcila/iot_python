@@ -17,7 +17,10 @@ python3 mqtt_client.py
 ```
 python3 test_mqtt.py [-h] [-f, --file FILE] [--version]
 ```
-
+### Ejemplo
+```
+python3 test_mqtt.py -f ./Ubidots/mqttconfig
+```
 ## Archivo de configuración
 Crear el archivo **mqttconfig** (__formato json__) en la carpeta correspondiente al servicio de almacenamiento remoto.  
 Ej: Ubidots --> __Ubidots/mqttconfig__ con la siguiente estructura: 
@@ -41,7 +44,5 @@ __**yyyy**__: Contraseña asignada por el servicio de nube
 __**zzzz**__: Tópico sobre el cual se realizará la publicación de los datos
 
 ---
-### Ejemplo
-```
-python3 test_mqtt.py -f ./Ubidots/mqttconfig
-``
+### Notas
+- Debe estar instalado el paquete **paho** `pip3 install paho-mqtt`  
