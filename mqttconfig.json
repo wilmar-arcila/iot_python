@@ -1,0 +1,27 @@
+{
+	"host":"localhost",
+	"port":"1883",
+	"transport":"tcp",
+	"sufix":"None",
+	"keepalive":"4000",
+	"clean":"True",
+	"user":"",
+	"pass":"",
+	"topic":"test",
+	"devices_subscribe":[
+		{
+			"name":"a",
+			"vars":[]
+		},
+		{
+			"name":"d",
+			"vars":[]
+		}
+	],
+	"devices_publish":[
+		{
+			"name":"pc_toshiba",
+			"vars":["temp"]
+		}
+	]
+}
